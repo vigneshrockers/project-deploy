@@ -1,0 +1,79 @@
+.tf-navbar {
+  width: 100%;
+  background: #081a57;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.tf-navbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tf-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.tf-logo-box {
+  width: 30px;
+  height: 30px;
+  background: #6e97ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.tf-brand-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tf-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.tf-nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tf-nav-links a:hover {
+  color: #a9c3ff;
+}
+
+.tf-logout-link {
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+}
+
+.tf-logout-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 768px) {
+  .tf-navbar-inner {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .tf-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+}

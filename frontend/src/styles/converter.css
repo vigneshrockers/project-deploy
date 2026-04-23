@@ -1,0 +1,91 @@
+.converter-page {
+  padding: 40px;
+  color: #ffffff;
+}
+
+.converter-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.converter-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #14214d;
+  border: 1px solid #2a3f8f;
+}
+
+.converter-row {
+  margin-bottom: 15px;
+}
+
+.converter-row label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #b8c7ff;
+}
+
+.converter-box input,
+.converter-box select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #2a3f8f;
+  background-color: #0b132b;
+  color: white;
+  font-size: 14px;
+}
+
+.converter-box input:focus,
+.converter-box select:focus {
+  outline: none;
+  border-color: #5e8bff;
+}
+
+.converter-field {
+  flex: 1;
+}
+
+.converter-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.converter-arrow {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.converter-box button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #5e8bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.converter-box button:hover {
+  background-color: #3d63dd;
+}
+
+.converter-result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #9be7ff;
+  text-align: center;
+}
+
+.error-text {
+  color: #ff6b6b;
+  margin-top: 10px;
+  text-align: center;
+}

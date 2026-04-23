@@ -1,0 +1,89 @@
+.simple-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: white;
+}
+
+.simple-card {
+  background: linear-gradient(180deg, #111d4d, #0c173d);
+  border: 1px solid rgba(108, 137, 255, 0.25);
+  border-radius: 18px;
+  padding: 30px;
+}
+
+.simple-card h1 {
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.simple-card p {
+  line-height: 1.7;
+  color: #d8e3ff;
+  margin-bottom: 14px;
+  font-size: 17px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #3e5ab1;
+  background: #08133b;
+  color: white;
+  font-size: 15px;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.page-btn {
+  background: #5e8bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.result-text {
+  margin-top: 18px;
+  color: #b7d2ff;
+  font-weight: 700;
+}
+
+.error-text {
+  margin-top: 18px;
+  color: #ff9b9b;
+  font-weight: 700;
+}
+
+.contact-info {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(108, 137, 255, 0.25);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 700px) {
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+}
